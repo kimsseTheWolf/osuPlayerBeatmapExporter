@@ -224,6 +224,12 @@ namespace BeatmapExporterCore.Exporters.Lazer
             foreach (var metadata in uniqueMetadata)
             {
                 // transcode if audio is not in .mp3 format
+
+                // self code added here
+                IList<RealmNamedFileUsage> targetFiles = mapset.Files;
+                Console.WriteLine(targetFiles[0].File.Hash);
+                Console.WriteLine("Path location: ", mapset.Files.ToString());
+                // ====================
                 string extension = Path.GetExtension(metadata.AudioFile);
                 string? transcodeFrom = null;
                 if (!extension.Equals(".mp3", StringComparison.OrdinalIgnoreCase))

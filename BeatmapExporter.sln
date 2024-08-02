@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeatmapExporterGUI", "Beatm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeatmapExporterGUI.Desktop", "BeatmapExporterGUI.Desktop\BeatmapExporterGUI.Desktop.csproj", "{F124BA8A-3D3A-4ED3-A0B0-5215FB56B8BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsuPlayerExporter", "OsuPlayerExporter\OsuPlayerExporter.csproj", "{74990991-9E3A-449D-BBC5-B06860B7A89B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{F124BA8A-3D3A-4ED3-A0B0-5215FB56B8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F124BA8A-3D3A-4ED3-A0B0-5215FB56B8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F124BA8A-3D3A-4ED3-A0B0-5215FB56B8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74990991-9E3A-449D-BBC5-B06860B7A89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74990991-9E3A-449D-BBC5-B06860B7A89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74990991-9E3A-449D-BBC5-B06860B7A89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74990991-9E3A-449D-BBC5-B06860B7A89B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
